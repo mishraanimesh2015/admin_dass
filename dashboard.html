@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="main">
+        <div id="menu">
+            <div id="logo">
+                <img src="/img/logo.png" alt="" height="60px">
+                <h1>PERFUM STOCK</h1> </h1>
+            </div>
+            <hr width="235px" style="margin:10px; color:red;">
+            <div class="options">
+                <a href="dashboard.html" id="is"><div id="dash"><span><i class="fa-solid fa-grip"></i> Dashboard</span></div></a>
+                <a href="table.html"><div id="dash"><span><i class="fa-solid fa-table-cells"></i>Tables</span></div></a>
+                <a href="insdata.html"><div id="dash"><span><i class="fa-solid fa-file-import"></i>Insert Data</span></div></a>
+                <a href="user.html"><div id="dash"><span><i class="fa-solid fa-user-tie"></i>User</span></div></a>
+
+            </div>
+            
+        </div>
+
+        <div class="content">
+            <div class="navbar">
+                <p class="name">Dashboard</p>
+           
+
+                <div class="icons">
+                    <input type="text" placeholder="Search">
+                    <a href=""><i class="fa-solid fa-box"></i></a>
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="top">
+
+                    <div class="shell shell1">
+                        <div class="icon">
+                            <span><i class="fa-solid fa-database"></i></span>
+                            <div class="p">
+                                <p>Used Data</p>
+                                <h2>48/50 GB</h2>
+                            </div>
+                            
+                        </div>
+
+                        <hr>
+
+                        <p class="btm"><span style="color:yellow; background-color:white;"><i class="fa-solid fa-land-mine-on"></i></span> &nbsp; Get more space</p>
+                        
+                    </div>
+                    <div class="shell shell2">
+                        <div class="icon">
+                            <span><i class="fa-solid fa-hand-holding-dollar"></i></span>
+                            <div class="p">
+                                <p>Sale </p>
+                                <h2>$34,354</h2>
+                            </div>
+                            
+                        </div>
+
+                        <hr>
+                        <p class="btm"><span style="color:blue; background-color:white;"><i class="fa-solid fa-calendar-days"></i></span> &nbsp; Last 24 Hours</p>
+                        
+                    </div>
+                    <div class="shell shell3">
+                        <div class="icon">
+                            <span><i class="fa-solid fa-circle-info"></i></span>
+                            <div class="p">
+                                <p>Issues</p>
+                                <h2>&nbsp;&nbsp; 60</h2>
+                            </div>
+                            
+                        </div>
+
+                        <hr>
+
+                        <p class="btm"><span style="color:green; background-color :rgb(226, 28, 61);"><i class="fa-solid fa-tag"></i></span> &nbsp;  Github location</p>
+                        
+                    </div>
+                    <div class="shell shell4">
+                        <div class="icon">
+                            <span><i class="fa-solid fa-person-circle-plus"></i></span>
+                            <div class="p">
+                                <p>Followers</p>
+                                <h2>+243</h2>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <p class="btm"><span style="color:purple; background-color:rgb(223, 28, 28);"><i class="fa-solid fa-stopwatch"></i></span> &nbsp; Just Updated</p>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="mid">
+
+
+                    <div class="slot slot">
+                        <div class="img">
+                            <img src="/img/s1.png" alt="" width="330px">
+                        </div>
+                        <h3>Daily Sales</h3>
+                        <p><span style="color:lightgreen;"><i class="fa-solid fa-arrow-up"></i> 55%</span> increase in today sales.</p>
+                        <hr>
+                        <p class="btm"><i class="fa-regular fa-clock" style="color: brown;"></i> &nbsp;updated 4 minutes ago</p>
+                    </div>
+                    <div class="slot slot">
+                        <div class="img">
+                            <img src="/img/s2.png" alt="" width="330px">
+                        </div>
+                        <h3>Order Stats</h3>
+                        <p>Last Campaign Performance</p>
+                        <hr>
+                        <p class="btm"><i class="fa-regular fa-clock" style="color: rgb(42, 165, 42);"></i> &nbsp;campaign sent 2 days ago</p>
+                    </div>
+                    <div class="slot slot">
+                        <div class="img">
+                            <img src="/img/s3.png" alt="" width="330px">
+                        </div>
+                        <h3>Orders Fulfilled</h3>
+                        <p>Last Performance</p>
+                        <hr>
+                        <p class="btm"><i class="fa-regular fa-clock" style="color: rgb(28, 207, 58);"></i> &nbsp;campaign sent 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            
+            <footer>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Company</a></li>
+                    <li><a href="">Manegment</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+
+                <p>&copy; Animesh Mishra for completion of Js dashboard.</p>
+            </footer>
+
+             
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

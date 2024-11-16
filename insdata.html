@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="insdata.css">
+</head>
+<body>
+    <div class="main">
+        <div id="menu">
+            <div id="logo">
+                <img src="/img/logo.png" alt="" height="60px">
+                <h1> </h1>
+            </div>
+            <hr width="235px" style="margin:10px; color:red;">
+            <div class="options">
+                <a href="dashboard.html" ><div id="dash"><span><i class="fa-solid fa-grip"></i> Dashboard</span></div></a>
+                <a href="table.html"><div id="dash"><span><i class="fa-solid fa-table-cells"></i>Tables</span></div></a>
+                <a href="insdata.html" id="is"><div id="dash"><span><i class="fa-solid fa-file-import"></i>Insert Data</span></div></a>
+                <a href="user.html"><div id="dash"><span><i class="fa-solid fa-user-tie"></i>User</span></div></a>
+
+            </div>
+            
+        </div>
+        <div class="content">
+            <div class="navbar">
+                <p class="name">Insert Data</p>
+           
+
+                <div class="icons">
+                    <input type="text" placeholder="Search">
+                    <a href=""><i class="fa-solid fa-box"></i></a>
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+
+                </div>
+            </div>
+
+            <div class="insform">
+
+                
+                <form action="" class="form" onsubmit="return insData()">
+                    <h1>Insert New Data</h1>
+                    <!-- <label for="oid">OrderId</label>
+                    <input type="text" id="oid" ><br> -->
+
+                    <label for="fname">perfume </label>
+                    <input type="text" id="fname" ><br>
+
+                    <label for="quantity">Quantity</label>
+                    <input type="text" id="quantity" ><br>
+
+                    <label for="price">Price</label>
+                    <input type="text" id="price" ><br>
+
+                    <label for="cname">Customer</label>
+                    <input type="text" id="cname" ><br>
+
+                    <label for="omode">OrderMode</label>
+                    <input type="text" id="omode" ><br>
+
+                    <label for="bill">Bill</label>
+                    <input type="text" id="bill" ><br>
+
+                    <label for="pmode">PaymentMode</label>
+                    <input type="text" id="pmode" ><br>
+                    <div class="btn">
+                        <button type="submit">Update Data</button>
+                    </div>
+                </form>
+                
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
